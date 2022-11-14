@@ -1,0 +1,28 @@
+<form id="frm1" action="ali.js">
+    <table width="350px" border="1px">
+        <tr>
+            <th colspan="2">Concrete Calculator</th>
+        </tr>
+        <tr>
+            <td>Length</td>
+            <td>
+                <input type="number" id="Length" placeholder="">Meters</td>
+        </tr>
+        <tr>
+            <td>Width</td>
+            <td>
+                <input type="number" id="Width" placeholder="">Meters</td>
+        </tr>
+        <tr>
+            <td>Depth</td>
+            <td>
+                <input type="number" id="Depth" placeholder="">Millimeters</td>
+        </tr>
+        <tr>
+            <td>Total cubic meters required:</td>
+            <td>
+                <p id="test"></p>
+            </td>
+        </tr>
+    </table>
+    <input type="button" onclick="Calculate()" value="calculate">
